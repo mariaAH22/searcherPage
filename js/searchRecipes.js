@@ -115,9 +115,9 @@ function startApp() {
         
         modalBody.innerHTML = `
             <img class="img-fluid" src="${strMealThumb}" alt="recipe ${strMeal}" />
-            <h3 class="my-3">Instrucciones</h3>
+            <h3 class="my-3">Instructions</h3>
             <p>${strInstructions}</p>
-            <h3 class="my-3">Ingredientes y Cantidades</h3>
+            <h3 class="my-3">ingredients and amounts</h3>
         `;
 
         const listGroup = document.createElement('UL');
