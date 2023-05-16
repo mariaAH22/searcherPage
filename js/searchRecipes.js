@@ -227,7 +227,7 @@ function startApp() {
     }
     
     function explanation() {
-        const explanationUser = window.alert('In this project an example of a food recipe search engine will be shown. The objective of this project is to show that i am able to work with APIs, bootstrap and javascript.');
+        const explanationUser = window.alert('In this project an example of a food recipe search engine will be shown. The porpose of this project is to show that i am able to work with APIs, bootstrap and javascript.');
     }
 }
 
