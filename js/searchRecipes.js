@@ -1,5 +1,5 @@
 function startApp() {
-
+    explanation()
     const result = document.querySelector('#result');
     const selectCategories = document.querySelector('#categories');
    
@@ -224,6 +224,10 @@ function startApp() {
             while(selector.firstChild) {
                 selector.removeChild(selector.firstChild);
             }
+    }
+    
+    function explanation() {
+        const explanationUser = window.alert('In this project an example of a food recipe search engine will be shown. The objective of this project is to show that i am able to work with APIs, bootstrap and javascript.');
     }
 }
 
